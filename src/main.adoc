@@ -1,5 +1,169 @@
-This is an AsciiDoc document!
+//----------------------------------------------------------------------------------------------------------------------------------------------------------
+//  SET-UP DO DOCUMENTO
+//----------------------------------------------------------------------------------------------------------------------------------------------------------
 
-This document is your AsciiDoc entry point.
 
-You can start by editing this file.
+= Titulo do documento aqui: Detalhes aqui...
+fvilante <fvilante1+asciidoc-github-template@gmail.com.br>
+0.1, 2022-AGO-22
+:toc: macro
+:toc-title: Índice de Tópicos
+:toclevels: 6
+:sectnumlevels: 6
+:sectnums:
+:sectlinks:
+:sectids:
+:icons: font
+:imagesdir: imagens
+:data-uri:
+:experimental:
+:figure-caption: Figura
+:example-caption: Exemplo
+:table-caption: Tabela
+:version-label: Versão
+
+//Informações sobre versão deste documento:
+//:revnumber: [para número da versão veja terceira linha deste documento]
+//:revdate: [para data da versão veja terceira linha deste documento]
+
+//Informações sobre empresa:
+//:author: [veja segunda linha deste documento]
+//:email: [veja segunda linha deste documento]
+
+//Variáveis úteis
+:my_var: variaveis
+:my_var2: substituição
+:website: www.juca.dev
+
+//Cadastro de imagens
+//ATENÇÃO: NÃO USE ACENTOS OU "Ç" NA DEFINIÇÃO DAS VARIÁVEIS DE IMAGENS.
+//         As imagens devem ser colocada um uma subpasta chamada `imagens`  
+:estrutura_mecanica:  estrutura_mecanica.png
+:estrutura_mecanica_2:  estrutura_mecanica.png
+
+
+//----------------------------------------------------------------------------------------------------------------------------------------------------------
+//  INICIO DO CONTEUDO PREAMBULAR DO DOCUMENTO
+//----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+[discrete] 
+== Informações ao Leitor
+
+Use a tag `[discrete]` quando quiser que um item nao seja adicionado ao Indice, como este item acima.
+
+[discrete] 
+== Endereço e contato
+====
+*Nome da empresa* +
+Rua Juca, 25 +
+Cidade de Juca,  +
+55 (00) 9999-9999 +
+
+*WebSite*
+{website} +
+
+*Comercial* +
+vendas@juca.dev
+
+*Suporte Técnico* +
+suporte@juca.dev
+====
+
+//Indice automatico
+toc::[]
+
+
+[discrete] 
+== Sobre a Empresa
+
+A empresa com mais de 20 anos de experiência em movimentação de cabeçotes de produtos, sendo a primeira no Brasil a desenvolver soluções deste tipo. Desenvolveu sob encomenda, um sistema de X, para impressão em Y automotivos.
+
+O presente documento tem por finalidade apresentar e descrever as características técnicas deste equipamento, com a finalidade de auxiliar o uso e manutenção do equipamento.
+
+// Quebra de pagina
+<<<
+
+
+//------------------------------------------------------------------------------
+[discrete] 
+== Apresentação
+
+O prduto X transporta simultaneamente Y efetuando controle de impressões em função do tipo, geometria, e cor do conector a ser impresso. O equipamento conta com duas gavetas de trabalho e um sistema computadorizado para tratamento do processo e interface com o operador.
+
+image::{estrutura_mecanica}[500,500,align="center"]
+
+
+A configuração e operação, além de outros tópicos relacionados a este equipamento serão abordados no decorrer deste manual, ao final dele você encontrará uma secção de anexos com informações complementares.
+
+<<<
+
+
+//----------------------------------------------------------------------------------------------------------------------------------------------------------
+//  INICIO DO CONTEUDO PRINCIPAL DO DOCUMENTO
+//----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+== Introducao
+    
+
+Este é um documento em formato AsciiDoc !
+
+Este arquivo é seu ponto de entrada de edicao.
+
+Voce pode comecar a edita-lo quando bem entender
+
+
+
+Voce também pode adicionar imagens:
+
+
+[TIP]
+.*DICA*
+====
+****
+Voce pode usar {my_var} como método de {my_var2} de texto. Defina quantas variaveis quiser
+
+Aqui também pode ser colocado imagens
+
+image::{estrutura_mecanica_2}[300,300,align="center"]
+
+_Este pode ser um comentario da imagem acima_
+
+****
+====
+
+
+=== Exemplo de Sub seção
+
+Aqui voce pode apresentar alguns passos:
+
+.Passo-a-passo para procedimento 1
+. Teste preliminar
+. Teste _unitario_
+. Teste _conjunto_ _(Atente para o fato que este processo pode levar alguns minutos até estar concluído)_
+. Ligar _Monitor_
+
+
+
+== Interface com o usuário
+
+Através da interface operacional do equipamento, o usuário poderá configurar alguns parâmetros do sistema. A interface com o usuário é composta de um teclado-mouse sem fio e um monitor LCD, bem como um mini-PC rodando um sistema operacional Windows(R) e o _Software de PC_ dedicado para esta operação.
+
+Os seguintes itens são parametrizáveis no {nome_curto}:
+
+* Cadastro, edição ou deleção de moldes
+* Determinação da geometria de um determinado molde e portanto as posições de impressão
+* Mudança da cor da impressão
+* Mudança do texto a ser impresso
+* Mudança da altura em que o cabeçote de impressão sobrevoa o molde
+* Tipo de formatação da mensagem de impressão _(até 4 formatos diferentes de impressão)_
+* Número de linhas de impressão no molde _(Atualmente é possível escolher entre 6 ou 7 linhas [7 é o padrão])
+* Configuração das portas de comunicação com as impressoras
+
+
+
+=== Tela principal
+
+A tela principal do _Software PC_ no seu modo de apresentação _não avançado_ restringe as configurações do equipamento, de modo que torna possível ao operador realizar apenas duas ações:
