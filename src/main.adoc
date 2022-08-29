@@ -1,0 +1,5 @@
+This is an AsciiDoc document!
+
+This document is your AsciiDoc entry point.
+
+You can start by editing this file.
