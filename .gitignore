@@ -1,0 +1,16 @@
+
+# Node building assets
+node_modules/
+
+# Code Editors
+.idea
+.vscode/
+
+# build directory
+build/
+
+# An eventual temp directory
+temp/
+
+# Windows thumbnail cache files
+Thumbs.db
