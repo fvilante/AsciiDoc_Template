@@ -1,27 +1,28 @@
 # Introduction
 
-> NOTE: This document is a work in progress. You are invented to Contribute to it!
+> NOTE: This document is a work in progress. You are invented to contribute to it! 
 
-This project is a template to start new AsciiDoc projects using the building tool [AsciiDoctor](insert_link_here).
+This project is a template to start new [AsciiDoc](https://asciidoc.org/) projects using the building tool [https://asciidoctor.org/](insert_link_here).
 
 This document will explain how you can be prepared to initialize your own AsciiDoc project.
+
+To a complete guide on how to write AsciiDoc files see the [AsciiDoc Writer’s Guide](https://asciidoctor.org/docs/asciidoc-writers-guide/)
 
 ---
 
 # Dependencies
 
-Before following below steps you need to assure you have [Nodejs](insert_link_here) and [git](insert_link_here) installed in your machine.
+Before following below steps you need to assure you have [Nodejs](https://nodejs.org/en/) and [git](https://git-scm.com/downloads) installed in your machine.
 
-Probabbly you want to use a modern code editor as [Visual Studio Code](insert_link_here) to edit your AsciiDoc with proper [Asciidoctor plugins installed](insert_link_here), but this project is editor agnostic and it not assumes you are using Visual Studio Code as your editor. You can choose any editor like basic [Windows Notepad](insert_link_here), [vim](insert_link_here), [notepad++](insert_link_here), or any other of your preference.
+Probabbly you want to use a modern code editor as [Visual Studio Code](https://code.visualstudio.com/) to edit your AsciiDoc with proper [Asciidoc plugin installed](https://marketplace.visualstudio.com/items?itemName=asciidoctor.asciidoctor-vscode), but this project is editor agnostic and it not assumes you are using Visual Studio Code as your editor. You can choose any editor like basic [Windows Notepad](https://en.wikipedia.org/wiki/Windows_Notepad), the old traditional [vim](https://www.vim.org/), [notepad++](https://notepad-plus-plus.org/downloads/), or any other of your preference.
 
 # Clone the repository
 
-First of all clone the official repository from github using this command:
+First of all copy the tip of the official repository from github using [tiged](https://github.com/tiged/tiged) command line where `my_project_name` is the name of your project and can be any valid folder name:
 
-NOTE_TO_FIX_IN_THIS_Document: Its better to copy just the tip of master_branch insted of the full repository!
 
 ```powershell
-> clone https::\\github.com\link_to_the_template_respository my_project_name
+> npx tiged https::\\github.com\link_to_the_template_respository my_project_name
 > cd my_project_name 
 ```
 
