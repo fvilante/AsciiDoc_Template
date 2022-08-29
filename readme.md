@@ -49,6 +49,26 @@ You can create also an html document, the proccess is similar to creade a pdf (s
 > npm run make_html
 ```
 
+# Editing your document
+
+You entry point for editing is `./src/main.adoc`.
+
+If you use imagens, remember to put it in the folder `./src/imagens`.
+
+The initial version of `./src/main.adoc` may be used as an example and a start-point of formating.
+
+# Cleaning building files
+
+To clean builded files you can clean all the sub-directory `./build` or simple type:
+
+```Powershell
+> npm run clean
+```
+
+# Additional Notes
+
+All these scripts are described in the `package.json` file. And they all relies on npm packages `asciidoctor` and `asciidoctor-pdf`.
+
 
 
 
