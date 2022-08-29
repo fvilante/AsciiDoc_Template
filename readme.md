@@ -1,6 +1,6 @@
 # Introduction
 
-> NOTE: This document is a work in progress. You are invented to contribute to it! 
+> NOTE: This document is a work in progress. You are invented to contribute to it! Report any issue [here](https://github.com/fvilante/AsciiDoc_Template/issues) or send your pull request 
 
 This project is a template to start new [AsciiDoc](https://asciidoc.org/) projects using the building tool [https://asciidoctor.org/](insert_link_here).
 
@@ -12,9 +12,11 @@ To a complete guide on how to write AsciiDoc files see the [AsciiDoc Writer’s 
 
 # Dependencies
 
-Before following below steps you need to assure you have [Nodejs](https://nodejs.org/en/) and [git](https://git-scm.com/downloads) installed in your machine.
+Before following below steps you need to assure you have [Nodejs](https://nodejs.org/en/) installed in your machine.
 
 Probabbly you want to use a modern code editor as [Visual Studio Code](https://code.visualstudio.com/) to edit your AsciiDoc with proper [Asciidoc plugin installed](https://marketplace.visualstudio.com/items?itemName=asciidoctor.asciidoctor-vscode), but this project is editor agnostic and it not assumes you are using Visual Studio Code as your editor. You can choose any editor like basic [Windows Notepad](https://en.wikipedia.org/wiki/Windows_Notepad), the old traditional [vim](https://www.vim.org/), [notepad++](https://notepad-plus-plus.org/downloads/), or any other of your preference.
+
+> NOTE: It's upto you to use [git](https://git-scm.com/downloads) to control version of your project. We recommend you to use it.
 
 # Clone the repository
 
@@ -22,7 +24,7 @@ First of all copy the tip of the official repository from github using [tiged](h
 
 
 ```powershell
-> npx tiged https::\\github.com\link_to_the_template_respository my_project_name
+> npx tiged https://github.com/fvilante/AsciiDoc_Template my_project_name
 > cd my_project_name 
 ```
 
@@ -53,6 +55,8 @@ You can create also an html document, the proccess is similar to creade a pdf (s
 # Editing your document
 
 You entry point for editing is `./src/main.adoc`.
+
+Use any editor of your choice to edit this file.
 
 If you use imagens, remember to put it in the folder `./src/imagens`.
 
