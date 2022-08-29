@@ -4,6 +4,10 @@
   "description": "A building tool for generic Asciidoc projects",
   "main": "index.js",
   "scripts": {
+    "make_html": "npx asciidoctor ./src/main.adoc --destination-dir ./build",
+    "make_pdf": "npx asciidoctor-pdf ./src/main.adoc --destination-dir ./build",
+    "watch": "echo Not implemented",
+    "clean": "npx rimraf ./build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "fvilante",
